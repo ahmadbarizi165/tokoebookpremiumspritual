@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Ebook</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<h1>Terima Kasih 🙏</h1>
+<p>Pesanan kamu berhasil diverifikasi.</p>
+
+<a id="downloadLink" class="btn">Download Ebook</a>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const orderId = params.get("order");
+
+  document.getElementById("downloadLink").href =
+    "/download?id=" + orderId;
+</script>
+
+</body>
+</html>
