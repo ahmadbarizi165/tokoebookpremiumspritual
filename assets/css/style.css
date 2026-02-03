@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+  padding: 40px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.produk {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.harga {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn, button {
+  background: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover, button:hover {
+  opacity: 0.9;
+  }
